@@ -1,5 +1,5 @@
 -- =========================
--- CONFIG BÁSICA
+-- BASIC CONFIG
 -- =========================
 
 vim.g.mapleader = " "
@@ -19,7 +19,7 @@ vim.opt.scrolloff = 8
 
 
 -- =========================
--- INSTALAR O LAZY.NVIM
+-- INSTALL O LAZY.NVIM
 -- =========================
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -52,7 +52,6 @@ require("lazy").setup({
       })
     end,
   },
-
   {
     "nvim-telescope/telescope.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
@@ -74,7 +73,7 @@ require("lazy").setup({
       require("toggleterm").setup({
         size = 10,
         open_mapping = [[<c-\>]],
-        direction = "horizontal",
+        direction = "float",
         shade_terminals = false,
       })
     end,
@@ -93,19 +92,6 @@ require("lazy").setup({
     end,
   },
 
-  {
-    "nvim-treesitter/nvim-treesitter",
-    build = ":TSUpdate",
-    event = { "BufReadPost", "BufNewFile" },
-    config = function()
-      require("nvim-treesitter.configs").setup({
-        ensure_installed = {
-          "lua", "javascript", "typescript", "python", "html", "css"
-        },
-        highlight = { enable = true },
-      })
-    end,
-  },
 
   {
     "folke/trouble.nvim",
@@ -264,10 +250,6 @@ require("lazy").setup({
 
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 
-
--- =========================
--- TRANSPARÊNCIA
--- =========================
 
 vim.cmd([[
   highlight Normal guibg=NONE ctermbg=NONE

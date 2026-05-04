@@ -1,7 +1,12 @@
 # 🧠 Neovim Setup (My Configuration)
 
 A modern Neovim setup focused on productivity, simplicity, and development.
-
+---
+![nvim1](./screenshots/img1.jpg)
+---
+![nvim2](./screenshots/img2.jpg)
+---
+![nvim3](./screenshots/img3.jpg)
 ---
 ## 🚀 Getting Started
 
@@ -259,4 +264,5 @@ A menu will appear showing everything you can do.
 * Learn small commands daily — they stack fast
 
 ---
+
 
