@@ -11,7 +11,7 @@ A modern Neovim setup focused on productivity, simplicity, and development.
 
 ## 🌎 Languages
 
-![Português(Brasil) 🇧🇷](./README-pt-br.md)
+* [Português(Brasil) 🇧🇷](./README-pt-br.md)
 
 ## 🚀 Getting Started
 
