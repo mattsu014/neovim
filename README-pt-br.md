@@ -4,11 +4,11 @@ Uma configuração moderna do Neovim focada em produtividade, simplicidade e des
 
 
 ---
-![nvim1](./screenshots/img1.jpg)
+![nvim1](./screenshots/img1.jpeg)
 ---
-![nvim2](./screenshots/img2.jpg)
+![nvim2](./screenshots/img2.jpeg)
 ---
-![nvim3](./screenshots/img3.jpg)
+![nvim3](./screenshots/img3.jpeg)
 ---
 
 ## 🌎 Idiomas
