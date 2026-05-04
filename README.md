@@ -8,6 +8,11 @@ A modern Neovim setup focused on productivity, simplicity, and development.
 ---
 ![nvim3](./screenshots/img3.jpeg)
 ---
+
+## 🌎 Languages
+
+![Português(Brasil) 🇧🇷](./README-pt-br.md)
+
 ## 🚀 Getting Started
 
 Open a project:
